@@ -1,0 +1,177 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,
+pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,
+form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,
+canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,
+output,ruby,section,summary,time,mark,audio,video {
+    border:0;
+    font-size:100%;
+    font:inherit;
+    vertical-align:baseline;
+
+    padding:0;
+}
+
+div, p {
+    margin-left:20px;
+    margin-top: 20px;
+}
+
+article,aside,details,figcaption,
+figure,footer,header,hgroup,menu,nav,
+section {
+    display:block;
+}
+
+ol,ul {
+    list-style:none;
+}
+
+blockquote,q{
+    quotes:none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content:none;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+header {
+
+}
+
+html {
+    overflow: hidden;
+}
+
+body {
+  background-image: url("https://66.media.tumblr.com/27939018ad44f1840a7af7e9d07746a6/tumblr_pmw2z728IN1uvsi7jo3_500.gif");
+  background-size: cover;
+  opacity: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-transform: lowercase;
+  font-size: 25px;
+  letter-spacing: 2px;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+body.begin {
+    opacity: 1;
+}
+
+.hooray {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.name {
+    text-align: left;
+}
+
+.status {
+    text-align: left;
+    font-size: 13px;
+}
+
+.ps {
+    text-align: left;
+    font-size: 9px;
+}
+
+.status a {
+  position: relative;
+  color: currentColor;
+  text-decoration-color: rgb(24, 255, 146);
+  transition: color .75s ease;
+}
+
+.purdue a:after {
+  content: "";
+  opacity: 0;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 100%;
+  border-bottom: 3px solid currentColor;
+  transition: opacity .75s ease;
+}
+
+
+.purdue a:hover {
+  color: rgb(194, 142, 14);
+  transition: color .25s ease;
+}
+
+#medium a:hover {
+  color: rgb(0, 171, 107);
+  transition: color .25s ease;
+}
+
+#twitter a:hover {
+  color: rgb(29, 161, 242);
+  transition: color .25s ease;
+}
+
+#linkedin a:hover {
+  color: rgb(0, 119, 181);
+  transition: color .25s ease;
+}
+
+#github a:hover {
+    color: rgb(36, 41, 46);
+    transition: color .25s ease;
+}
+
+#play a:hover {
+    color: rgb(46, 125, 139);
+    transition: color .25s ease;
+}
+
+#resume a:hover,
+.email a:hover,
+#conquer a:hover {
+    color: rgb(94, 137, 251);
+    transition: color .25s ease;
+}
