@@ -49,6 +49,7 @@ table {
   box-sizing: border-box;
 }
 
+
 html,
 body,
 header {
@@ -67,9 +68,6 @@ html {
 }
 
 body {
- /* background-image: url("https://github.com/carissaciarlone/carissaciarlone.github.io/blob/master/circuit.gif?raw=true");
-  background-size: cover;
-  background-color: #cccccc;*/
   opacity: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -110,7 +108,7 @@ body.begin {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  /*width: 50%;*/
+  border: solid white 5px;
 }
 
 .name {
@@ -150,7 +148,7 @@ body.begin {
 }
 
 #linkedin a:hover {
-  /*color: rgb(0, 119, 181);*/
+  color: rgb(0, 119, 181);
   color: black;
   transition: color .25s ease;
 }
