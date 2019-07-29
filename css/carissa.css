@@ -60,7 +60,7 @@ html {
 }
 
 body {
-  background-image: url("https://66.media.tumblr.com/27939018ad44f1840a7af7e9d07746a6/tumblr_pmw2z728IN1uvsi7jo3_500.gif");
+  background-image: url("circuit.gif");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #cccccc;
@@ -100,6 +100,12 @@ body.begin {
     opacity: 1;
 }
 
+.center {
+  display: block;
+  margin-left: 1000px;
+  margin-right: 100px;
+  /*width: 50%;*/
+}
 
 .name {
     text-align: center;
